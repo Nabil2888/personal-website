@@ -9,6 +9,12 @@ h1{
 h2{
     margin-bottom: 0px;
 }
+h3{
+    color: peru;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: blue;
     font-weight: bold;
@@ -28,6 +34,8 @@ h2{
 }
 section{
     height: 500px;
+    padding-bottom: 250px;
+    background-size: contain;
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +45,33 @@ section{
     color: white;
     font-weight: bold;
     margin: 30px 0px;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.column {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    padding: 0;
+    font-size: 0;
+  }
+.my-latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+#position{
+    position: relative; left: 100px; top: 200px;
+}
+#biography-position{
+    position: relative; top: 220px;
 }
